@@ -1,0 +1,13 @@
+name: LoveeeCraftEndUpdate
+version: 1.0.0
+main: com.enderdevelopment.plugin.Main
+api-version: "1.21"
+description: End-themed gameplay additions for Paper servers.
+commands:
+  loveeeend:
+    description: Shows End update help or gives an authorized Void Blade.
+    usage: /loveeeend [giveblade]
+permissions:
+  loveeeend.giveblade:
+    description: Allows a player to receive the Void Blade by command.
+    default: op
